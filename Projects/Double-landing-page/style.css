@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+text-align: center;
+}
+h1{
+    color:white;  
+}
+.split{
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://cdn.shopify.com/s/files/1/0670/7688/2653/files/86fb9f06-1525-4b23-b257-805885ac798a-1_d60e4f68-d823-4bc0-b840-16b850cb12fa.png?v=1727445542");
+   background-size: cover;
+   
+}
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url("https://cdn.kalvo.com/uploads/img/gallery/68483-samsung-galaxy-s25-ultra-13.jpg");
+    background-size: cover;
+}
+.btn{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.active-left .left{
+    width: 75%;
+}
+.active-left .right{
+    width: 25%;
+}
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+.left,.right{
+    transition: width 2s ease-in-out;
+}

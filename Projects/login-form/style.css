@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+     font-family: Poppins,sans-serif;
+    color: #fff; 
+}
+
+body{
+  background-image: url(https://wallpapercave.com/wp/wp2555019.jpg);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size:cover;
+  background-position: center;
+
+
+}
+.container h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.container{
+    width:500px;
+    height: 500px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(13px);
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 35px;
+
+}
+ .container .input-box{
+   position: relative;
+   width: 100%;
+   height: 55px;
+   margin: 38px 0;
+
+}
+ .container .input-box input{
+    background: transparent;
+    width: 350px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px 45px20px 20px;
+    font-size: 16px;
+} 
+input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    
+    
+    
+}
+.input-box i{
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: #fff;
+
+}
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -16px 0 16px;
+
+}
+.check-box label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.btnn{
+    display: inline-block;
+    background: #fff;
+  
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.font{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.font a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.font a i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.font a:hover{
+    opacity: 0.8;
+}
+input[type="checkbox"]{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+input::-ms-reveal,
+input::-ms-clear{
+    display: none;
+}
+
+input::-webkit-clear-button,
+input::-webkit-inner-spin-button,
+input::-webkit-contacts-auto-fill-button,
+input::-webkit-crendentials-auto-fill-button{
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
